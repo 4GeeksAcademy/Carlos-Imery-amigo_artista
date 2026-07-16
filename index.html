@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Imery | Artista Plástico Venezolano</title>
+    <meta name="description" content="Sitio oficial de Carlos Imery, artista plástico venezolano. Conoce su obra, trayectoria y próximas presentaciones.">
+    <meta name="keywords" content="Carlos Imery, artista plástico, Venezuela, pintura, arte contemporáneo, exposiciones">
+    <meta name="author" content="Carlos Imery">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Carlos Imery | Artista Plástico Venezolano">
+    <meta property="og:description" content="Sitio oficial de Carlos Imery, artista plástico venezolano. Conoce su obra, trayectoria y próximas presentaciones.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+
+    <!-- Schema.org marcado de datos estructurados -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carlos Imery",
+        "jobTitle": "Artista Plástico",
+        "description": "Artista plástico venezolano dedicado a la pintura y el arte contemporáneo.",
+        "url": "https://carlosimery.art",
+        "sameAs": [
+            "https://www.instagram.com/carlosimery",
+            "https://www.facebook.com/carlosimery"
+        ],
+        "nationality": {
+            "@type": "Country",
+            "name": "Venezuela"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Enlace para saltar al contenido principal (solo visible al recibir foco) -->
+    <a href="#inicio" class="skip-link" aria-label="Saltar al contenido principal">Saltar al contenido principal</a>
+
+    <!-- Barra de navegación horizontal fija -->
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <span class="nav-logo" aria-hidden="true">Carlos Imery</span>
+            <ul class="nav-menu" role="list" aria-label="Menú de navegación">
+                <li><a href="#inicio" aria-label="Ir a la sección de inicio" aria-current="page">Inicio</a></li>
+                <li><a href="#sobre-mi" aria-label="Ir a la sección Sobre mí">Sobre mí</a></li>
+                <li><a href="#trayectoria" aria-label="Ir a la sección Trayectoria">Trayectoria</a></li>
+                <li><a href="#presentaciones" aria-label="Ir a la sección Próximas presentaciones">Próximas presentaciones</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" role="main">
+
+        <!-- SECCIÓN INICIO / BIENVENIDA -->
+        <section id="inicio" class="hero" aria-label="Bienvenida">
+            <div class="hero-content">
+                <h1 itemprop="name">Carlos Imery</h1>
+                <p class="hero-subtitle" itemprop="jobTitle">Artista Plástico</p>
+                <p class="hero-description">Explorando la intersección entre el color, la emoción y la identidad latinoamericana a través de la pintura contemporánea.</p>
+                <a href="#sobre-mi" class="hero-btn" aria-label="Conocer más sobre Carlos Imery">Conoce mi obra</a>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <span>Desplázate</span>
+                <span class="scroll-arrow">↓</span>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE MÍ -->
+        <section id="sobre-mi" class="section" aria-labelledby="titulo-sobre-mi" itemscope itemtype="https://schema.org/Person">
+            <div class="section-content">
+                <h2 id="titulo-sobre-mi" class="section-title">Sobre mí</h2>
+                <div class="about-grid">
+                    <div class="about-text" itemprop="description">
+                        <p>Soy <strong itemprop="name">Carlos Imery</strong>, artista plástico venezolano con más de 15 años de trayectoria en el mundo del arte contemporáneo. Mi trabajo explora las emociones humanas a través del color, la textura y la composición, inspirándome en la riqueza cultural de América Latina.</p>
+                        <p>He participado en exposiciones individuales y colectivas tanto en Venezuela como en el extranjero, llevando mi visión artística a galerías y espacios culturales internacionales.</p>
+                        <p>Mi obra se caracteriza por el uso audaz del color, pinceladas expresivas y una profunda conexión con las raíces culturales que definen nuestra identidad.</p>
+                    </div>
+                    <div class="about-details" aria-label="Detalles personales">
+                        <div class="detail-item">
+                            <span class="detail-label" aria-hidden="true">📍</span>
+                            <span><strong>Origen:</strong> Caracas, Venezuela</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label" aria-hidden="true">🎨</span>
+                            <span><strong>Especialidad:</strong> Pintura contemporánea</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label" aria-hidden="true">📅</span>
+                            <span><strong>Trayectoria:</strong> Más de 15 años</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label" aria-hidden="true">🌎</span>
+                            <span><strong>Exposiciones:</strong> Nacionales e internacionales</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TRAYECTORIA -->
+        <section id="trayectoria" class="section section-alt" aria-labelledby="titulo-trayectoria">
+            <div class="section-content">
+                <h2 id="titulo-trayectoria" class="section-title">Trayectoria</h2>
+                <div class="timeline" role="list" aria-label="Línea de tiempo de la trayectoria artística">
+                    <article class="timeline-item" role="listitem" aria-label="2010: Primera exposición individual">
+                        <div class="timeline-year" aria-hidden="true">2010</div>
+                        <div class="timeline-content">
+                            <h3>Primera exposición individual</h3>
+                            <p>"Colores del Alma" — Galería de Arte Nacional, Caracas.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item" role="listitem" aria-label="2013: Exposición internacional">
+                        <div class="timeline-year" aria-hidden="true">2013</div>
+                        <div class="timeline-content">
+                            <h3>Exposición internacional</h3>
+                            <p>"Latinoamérica en Lienzo" — Museo de Arte Contemporáneo, Bogotá, Colombia.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item" role="listitem" aria-label="2016: Residencia artística">
+                        <div class="timeline-year" aria-hidden="true">2016</div>
+                        <div class="timeline-content">
+                            <h3>Residencia artística</h3>
+                            <p>Residencia en el Centro Cultural de España, Madrid, explorando nuevas técnicas mixtas.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item" role="listitem" aria-label="2019: Reconocimiento internacional">
+                        <div class="timeline-year" aria-hidden="true">2019</div>
+                        <div class="timeline-content">
+                            <h3>Reconocimiento internacional</h3>
+                            <p>Premio a la Trayectoria Artística en la Bienal de Arte Latinoamericano, Buenos Aires.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item" role="listitem" aria-label="2023: Exposición antológica">
+                        <div class="timeline-year" aria-hidden="true">2023</div>
+                        <div class="timeline-content">
+                            <h3>Exposición antológica</h3>
+                            <p>"15 Años de Color" — Exposición retrospectiva en el Museo de Bellas Artes, Caracas.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRÓXIMAS PRESENTACIONES -->
+        <section id="presentaciones" class="section" aria-labelledby="titulo-presentaciones">
+            <div class="section-content">
+                <h2 id="titulo-presentaciones" class="section-title">Próximas presentaciones</h2>
+                <p class="section-intro">No te pierdas las próximas exposiciones y eventos donde podrás disfrutar de mi obra en vivo.</p>
+                <div class="events-grid" role="list" aria-label="Lista de próximas presentaciones">
+                    <article class="event-card" role="listitem" aria-label="Exposición: Horizontes, 15 de agosto de 2026">
+                        <div class="event-date" aria-hidden="true">
+                            <span class="event-day">15</span>
+                            <span class="event-month">Ago</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Horizontes</h3>
+                            <p class="event-location" aria-label="Ubicación: Galería de Arte Contemporáneo, Madrid">📍 Galería de Arte Contemporáneo, Madrid</p>
+                            <p class="event-desc">Exposición individual que explora nuevos horizontes cromáticos y texturas experimentales.</p>
+                        </div>
+                    </article>
+                    <article class="event-card" role="listitem" aria-label="Exposición: Colores de Venezuela, 10 de septiembre de 2026">
+                        <div class="event-date" aria-hidden="true">
+                            <span class="event-day">10</span>
+                            <span class="event-month">Sep</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Colores de Venezuela</h3>
+                            <p class="event-location" aria-label="Ubicación: Museo de Arte Moderno, Ciudad de México">📍 Museo de Arte Moderno, Ciudad de México</p>
+                            <p class="event-desc">Exposición colectiva de artistas venezolanos en el extranjero.</p>
+                        </div>
+                    </article>
+                    <article class="event-card" role="listitem" aria-label="Taller: Técnicas de pintura contemporánea, 5 de noviembre de 2026">
+                        <div class="event-date" aria-hidden="true">
+                            <span class="event-day">5</span>
+                            <span class="event-month">Nov</span>
+                        </div>
+                        <div class="event-info">
+                            <h3>Taller: Técnicas de pintura contemporánea</h3>
+                            <p class="event-location" aria-label="Ubicación: Centro Cultural de Arte, Buenos Aires">📍 Centro Cultural de Arte, Buenos Aires</p>
+                            <p class="event-desc">Taller interactivo donde compartiré mis técnicas y procesos creativos.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo" aria-label="Pie de página">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>&copy; 2026 <span itemprop="name">Carlos Imery</span>. Todos los derechos reservados.</p>
+                <p>Arte que inspira, color que transforma.</p>
+            </div>
+            <div class="footer-contact" aria-label="Información de contacto">
+                <p>Contacto: <a href="mailto:contacto@carlosimery.art" aria-label="Enviar correo electrónico a contacto@carlosimery.art">contacto@carlosimery.art</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
